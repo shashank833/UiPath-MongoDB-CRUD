@@ -6,12 +6,12 @@ This Nuget package has four methods exposed
 3)Filter Collection
 4)Delete Collection
 
-Create Collection: It has four arguments
+Create Collection: It has three arguments
                     1) Server ip-> String-> Ip address of the MongoDB server
                     2) Database Name -> String -> The Name of the existing/new database
                     3) Collection Name-> String -> The Name of the existing/new Collection
 
-Update Collection : It has four arguments
+Update Collection : It has eight arguments
                     1) Server ip-> String-> Ip address of the MongoDB server
                     2) Database Name -> String -> The Name of the database
                     3) Collection Name-> String -> The Name of the Collection
@@ -21,7 +21,7 @@ Update Collection : It has four arguments
                     7) Update Field -> String -> The Field  which the is to be Updated
                     8) Update value -> Dynamic -> The Value to be updated
                     
-Filter Collection : It has four arguments
+Filter Collection : It has five arguments
                     1) Server ip-> String-> Ip address of the MongoDB server
                     2) Database Name -> String -> The Name of the database
                     3) Collection Name-> String -> The Name of the Collection
@@ -31,7 +31,7 @@ Please note: Field and Value is a key value pair
 Ex: field= {field1, field2}, value= {value1, value2}
 
 
-Delete Collection: It has four arguments
+Delete Collection: It has three arguments
                     1) Server ip-> String-> Ip address of the MongoDB server
                     2) Database Name -> String -> The Name of the database
                     3) Collection Name-> String -> The Name of the Collection
